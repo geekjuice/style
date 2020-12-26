@@ -185,7 +185,7 @@ const initEslintConfig = async ({ dry, yes }: Options): Promise<void> => {
             extends: [
               '${STYLES}/eslint/base',
               '${STYLES}/eslint/${plugins[0]}',
-            ]
+            ],
           };
         `;
         break;
